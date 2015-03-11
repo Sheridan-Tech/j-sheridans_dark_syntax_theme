@@ -1,4 +1,4 @@
-# j_sheridan_dark-syntax
+# j-sheridan-dark-syntax
 
 A dark syntax theme for Atom.
 
