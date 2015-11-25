@@ -12,7 +12,7 @@
   "engines": {
     "atom": ">0.39.0"
   },
-  "readme": "# Code Fruit-Basket Dark theme \n\nBy James P. Sheridan\n\nA dark syntax theme for Atom.\n\nThank you to kevinsawicki( https://atom.io/users/kevinsawicki ) for the code I used as an example. https://atom.io/themes/monokai",
+  "readme": "# Code Fruit-Basket Dark theme \n\nBy James P. Sheridan\n\nA dark syntax theme for Atom.\n\nSpecial thanks to kevinsawicki ( https://atom.io/users/kevinsawicki ) for the code I used as an example. https://atom.io/themes/monokai",
   "readmeFilename": "README.md",
   "bugs": {
     "url": "https://github.com/Sheridan-Tech/code-fruitbasket-dark-syntax/issues"
