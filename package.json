@@ -1,21 +1,21 @@
 {
-  "name": "J-Sheridans_dark_syntax_theme",
+  "name": "Code-Fruit-Basktet-J-Sheridans_dark_syntax_theme",
   "theme": "syntax",
   "version": "0.1.0",
   "private": true,
-  "description": "A classic modern dark theme incorporating lime, sky blue, light red, and purple",
+  "description": "A classic monokai-based modern dark theme incorporating lime, sky blue, light red, and purple",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Sheridan-Tech/j-sheridan-dark-syntax"
+    "url": "https://github.com/Sheridan-Tech/code-fruitbasket-dark-syntax"
   },
   "license": "MIT",
   "engines": {
     "atom": ">0.39.0"
   },
-  "readme": "# J. Sheridan's Dark theme \n\nA dark syntax theme for Atom.\n\nOriginally converted from the [TextMate](http://www.monokai.nl/blog/wp-content/asdev/Monokai.tmTheme)\ntheme using the [TextMate bundle converter](http://atom.io/docs/latest/converting-a-text-mate-theme).\n\n![](https://f.cloud.github.com/assets/671378/2265671/d02ebee8-9e85-11e3-9b8c-12b2cb7015e3.png)\n",
+  "readme": "# Code Fruit-Basket Dark theme \n\nBy James P. Sheridan\n\nA dark syntax theme for Atom.\n\nThank you to kevinsawicki( https://atom.io/users/kevinsawicki ) for the code I used as an example. https://atom.io/themes/monokai",
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/Sheridan-Tech/j_sheridan_dark-syntax/issues"
+    "url": "https://github.com/Sheridan-Tech/code-fruitbasket-dark-syntax/issues"
   },
   "homepage": "https://www.sheridan-tech.com",
   "_id": " ",
