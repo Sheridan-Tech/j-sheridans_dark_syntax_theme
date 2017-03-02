@@ -2,7 +2,7 @@
 
 Code-fruit, a dark syntax theme for Atom.
 
-Special thanks to kevinsawicki ( https://atom.io/users/kevinsawicki ) for the code I used as an example.
+Special thanks to kevinsawicki ( https://atom.io/users/kevinsawicki ) for the example code.
 https://atom.io/themes/monokai
 
 
