@@ -1,6 +1,6 @@
 @import 'syntax-variables';
 
-atom-text-editor, :host {
+atom-text-editor,atom-text-editor {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
 
@@ -89,12 +89,12 @@ atom-text-editor, :host {
   }
 }
 
-.comment {
+.syntax--comment {
   font-weight: bold;
   color: #717171;
 }
 
-.string {
+.syntax--string {
   font-style: italic;
   color: #66D9EF;
 }
@@ -112,19 +112,19 @@ atom-text-editor, :host {
   color: #AE81FF;
 }
 
-.keyword {
+.syntax--keyword {
   color: #A6E22E;
 }
 
-.storage {
+.syntax--storage {
   color: #F92672;
 }
 
-.storage.type {
+.syntax--storage.syntax--type {
   color: #AE81FF;
 }
 
-.entity.name.class {
+.syntax--entity.syntax--name.syntax--class {
   text-decoration: none;
   color: #A6E22E;
 }
@@ -177,7 +177,7 @@ atom-text-editor, :host {
   color: #AE81FF;
 }
 
-.invalid {
+.syntax--invalid {
   color: #F8F8F0;
   background-color: #F92672;
 }
@@ -193,6 +193,6 @@ atom-text-editor, :host {
 }
 
 // 'this' Javascript
-.variable.language.js {
+.syntax--variable.syntax--language.syntax--js {
   color: #F92672;
 }
