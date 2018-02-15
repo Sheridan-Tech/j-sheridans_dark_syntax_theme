@@ -40,49 +40,49 @@ atom-text-editor,atom-text-editor {
     background-color: @syntax-selection-color;
   }
 
-  .search-results .marker .region {
+  .search-results .syntax--marker .region {
     background-color: transparent;
     border: 1px solid @syntax-result-marker-color;
   }
 
-  .search-results .marker.current-result .region {
+  .search-results .syntax--marker.current-result .region {
     border: 1px solid @syntax-result-marker-color-selected;
   }
 
-  .gfm {
-    .markup {
-      &.heading {
+  .syntax--gfm {
+    .syntax--markup {
+      &.syntax--heading {
         color: #A6E22E;
         font-weight: bold;
       }
 
-      &.underline {
+      &.syntax--underline {
         color: #E6DB74;
         text-decoration: underline;
       }
     }
 
-    .bold {
+    .syntax--bold {
       font-weight: bold;
     }
 
-    .italic {
+    .syntax--italic {
       font-style: italic;
     }
 
-    .raw {
+    .syntax--raw {
       color: #66D9EF;
     }
 
-    .variable.list {
+    .syntax--variable.syntax--list {
       color: #F92672;
       font-weight: bold;
     }
 
-    .link {
+    .syntax--link {
       color: #CCC;
 
-      .entity {
+      .syntax--entity {
         color: #AE81FF;
       }
     }
@@ -99,16 +99,16 @@ atom-text-editor,atom-text-editor {
   color: #66D9EF;
 }
 
-.constant.numeric {
+.syntax--constant.syntax--numeric {
   color: #F92672;
 }
 
-.constant.language {
+.syntax--constant.syntax--language {
   color: #AE81FF;
 }
 
-.constant.character,
-.constant.other {
+.syntax--constant.syntax--character,
+.syntax--constant.syntax--other {
   color: #AE81FF;
 }
 
@@ -129,7 +129,7 @@ atom-text-editor,atom-text-editor {
   color: #A6E22E;
 }
 
-.entity.other.inherited-class {
+.syntax--entity.syntax--other.syntax--inherited-class {
   font-style: italic;
   text-decoration: none;
   color: #A6E22E;
@@ -141,38 +141,38 @@ atom-text-editor,atom-text-editor {
   display: inline-block;
 }
 
-.entity.name.function {
+.syntax--entity.syntax--name.syntax--function {
   font-weight: bold;
   color: #A6E22E;
 }
 
-.entity.name.instance {
+.syntax--entity.syntax--name.syntax--instance {
   color: #86c500;
 }
 
-.variable.parameter {
+.syntax--variable.syntax--parameter {
   font-style: italic;
   color: #FD971F;
 }
 
-.entity.name.tag {
+.syntax--entity.syntax--name.syntax--tag {
   color: #F92672;
 }
 
-.entity.other.attribute-name {
+.syntax--entity.syntax--other.syntax--attribute-name {
   color: #A6E22E;
 }
 
-.support.function {
+.syntax--support.syntax--function {
   color: #66D9EF;
 }
 
-.support.constant {
+.syntax--support.syntax--constant {
   color: #66D9EF;
 }
 
-.support.type,
-.support.class {
+.syntax--support.syntax--type,
+.syntax--support.syntax--class {
   font-style: italic;
   color: #AE81FF;
 }
@@ -182,13 +182,13 @@ atom-text-editor,atom-text-editor {
   background-color: #F92672;
 }
 
-.invalid.deprecated {
+.syntax--invalid.syntax--deprecated {
   color: #F8F8F0;
   background-color: #AE81FF;
 }
 
 // Jade syntax
-.class.jade {
+.syntax--class.syntax--jade {
   color: #AE81FF;
 }
 
